@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200&family=Montserrat:wght@200&display=swap');
+.aboutme {
+    width: 100%;
+    height: fit-content;
+    font-family: 'Lato';
+    margin-top: 12rem;
+}
+
+.container {
+    position: relative;
+}
+
+.aboutme-title {
+    background-color: rgba(36, 59, 183, 1);
+    font-weight: 900;
+    font-size: 40px;
+    border-radius: 100px 50px 100px 50px;
+    padding: 20px 40px;
+    box-shadow: 10px 0px 0px 0px rgba(52, 76, 202, 1), 20px 0px 0px 0px rgba(91, 147, 255, 1);
+    margin: 0;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    position: relative;
+    width: fit-content;
+}
+
+.title-cont {
+    height: fit-content;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-cont h1 {
+    position: relative;
+    color: white;
+    width: fit-content;
+    font-size: 34px;
+    font-family: 'Montserrat';
+    font-weight: 100;
+}
+
+.habilities {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.html img {
+    width: 155px;
+    margin-top: -30px;
+}
+
+.css img {
+    width: 150px;
+}
+
+.cs img {
+    width: 220px;
+}
+
+.unity img {
+    width: 250px;
+}
+
+.habilities div {
+    width: fit-content;
+    height: fit-content;
+}
+
+.languages {
+    font-weight: 500;
+    font-size: 40px;
+    margin: 0;
+    color: white;
+    position: relative;
+    width: 40%;
+    height: fit-content;
+    margin-top: 40px;
+    left: 35%;
+    font-family: 'Lexend';
+}
+
+.description {
+    font-weight: 900;
+    font-size: 34px;
+    margin: 0;
+    color: white;
+    position: relative;
+    width: 80%;
+    height: fit-content;
+    margin-top: 40px;
+}
