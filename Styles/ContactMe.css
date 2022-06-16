@@ -73,3 +73,45 @@ input:focus {
     position: relative;
     width: fit-content;
 }
+
+.btn {
+    border-radius: 50px 50px 50px 50px;
+    border: 1px solid rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    background-color: rgb(28, 158, 78);
+    font-weight: 900;
+    width: 200px;
+    height: 10%;
+    margin-top: 50px;
+    transition: .4s;
+    position: relative;
+}
+
+.btn:focus {
+    background-color: rgb(13, 85, 41);
+    color: white;
+}
+
+.btn:hover {
+    padding-right: 50px;
+}
+
+.btn i {
+    position: absolute;
+    bottom: 0;
+    padding: 1.2% 0%;
+    border-radius: 50%;
+    margin: 0;
+    left: -5%;
+    padding-left: 100%;
+    opacity: 0;
+    transition: .4s;
+}
+
+.btn i:hover {
+    opacity: 1;
+    left: -10%;
+    padding-left: 80%;
+    padding-right: 20%;
+}
